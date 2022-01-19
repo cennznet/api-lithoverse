@@ -56,8 +56,8 @@ _Description_: Returns array of NFTs based on query paramaters
 
 _Query Params_:
 
-- owner: Address of owner of NFTs e.g. `?owner=5Cm9UPHSbDfzJiffXBkcqUoaiZJatRJAxqHu4UDL43sKV8Uv`
-- token_ids: Range of Token Ids to search for e.g. `?token_ids=1&token_ids=100`
+- owner_address: Address of owner of NFTs e.g. `?owner_address=5Cm9UPHSbDfzJiffXBkcqUoaiZJatRJAxqHu4UDL43sKV8Uv`
+- token_ids: Range of token id's to search for e.g. for tokens with id's in range 10-20 `?token_ids=10&token_ids=20`
 - collection_id: Limit responses to NFTs part of one collection e.g. `?collection_id=93`
 - limit: Limit number of collections returned e.g. `?limit=100`
 
